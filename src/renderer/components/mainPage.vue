@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import tableify from 'tableify'
 import ShowData from './componentModules/showData'
 import Login from './componentModules/login'
 
