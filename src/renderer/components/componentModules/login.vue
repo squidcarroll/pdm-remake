@@ -1,9 +1,13 @@
 <template>
-  <div>
+  <div id="login">
+    <h4>Select Port</h4>
     <md-button class="md-raised" @click="getPorts">refresh</md-button>
-    <md-button class="md-raised md-primary" v-if="ports != 'no ports'" @click="login">Connect</md-button>
+    <md-button
+      class="md-raised md-primary"
+      v-if="ports != 'no ports' && selectedPort"
+      @click="login"
+    >Connect</md-button>
     <md-button v-else class="md-raised md-primary" :disabled="true">Connect</md-button>
-    <span v-if="selectedPort == null">Select Port</span>
     <md-field>
       <md-select v-if="ports != 'no ports'" name="ports" v-model="selectedPort">
         <md-option v-for="port in ports" v-bind:key="port" v-bind:value="port">{{ port }}</md-option>
@@ -26,11 +30,18 @@ export default {
       ports: [],
       selectedPort: null,
       port: null,
-      lastSent: ""
+      lastSent: "",
+      pass: Buffer.from([])
     };
   },
   created() {
     this.getPorts();
+    // const pasBuf = Buffer.alloc(7, "sapatsn", "ascii");
+    // const checkSum = Buffer.alloc(1, 0x06);
+    this.pass = Buffer.concat(
+      [Buffer.alloc(7, "sapatsn", "ascii"), Buffer.alloc(1, 0x06)],
+      8
+    );
   },
   methods: {
     getPorts: function() {
@@ -57,7 +68,7 @@ export default {
         });
 
         try {
-          await this.openPort(this.selectedPort);
+          console.log(await this.openPort(this.selectedPort));
           await this.loginAsync();
           this.startLoop();
         } catch (e) {
@@ -86,9 +97,8 @@ export default {
           console.log("ayo");
           if (await this.getAckAsync("I")) {
             console.log("Acknowledged, sending password");
-            this.sendBuf(Login.pass);
-            let retVal = await this.captureDataAsync();
-
+            this.sendBuf(this.pass);
+            let retVal = await this.captureExpected(9);
             if (retVal[8].toString() == "73") {
               res(console.log("login successful"));
             } else {
@@ -102,6 +112,19 @@ export default {
           rej("failed to login3");
         }
       });
+    },
+    captureExpected: async function(len) {
+      let data = await this.captureDataAsync();
+      let tmp;
+      console.log(data);
+      while (data.length < len) {
+        tmp = await this.captureDataAsync();
+        data = Buffer.concat([data, Buffer.from(tmp)]);
+      }
+      if (data.length == len) {
+        console.log(data);
+        return data;
+      }
     },
     startLoop: async function() {
       let data;
@@ -136,7 +159,7 @@ export default {
       return new Promise(async (resolve, reject) => {
         function cb(data) {
           if (data) {
-            // this.port.removeListener("data", cb);
+            this.removeListener("data", cb);
             resolve(data);
           } else {
             console.log("booo");
@@ -223,3 +246,9 @@ export default {
   }
 };
 </script>
+
+<style>
+/* #login {
+  width: 210px !important;
+} */
+</style>

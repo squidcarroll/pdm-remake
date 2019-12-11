@@ -13,20 +13,20 @@
 </template>
 
 <script>
-import ShowData from './componentModules/showData'
-import Login from './componentModules/login'
+import ShowData from "./componentModules/showData";
+import Login from "./componentModules/login";
 
 export default {
-  name: 'mainPage',
+  name: "mainPage",
   components: {
     ShowData,
     Login
   },
   data() {
-    return {}
+    return {};
   },
   methods: {}
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -3,28 +3,38 @@
   <div class="md-layout md-gutter">
     <div class="md-layout-item">
       <div id="rpm"></div>
-      <div>
-        <md-button class="md-raised" @click="log">Log Data</md-button>
-      </div>
     </div>
     <div class="md-layout-item">
       <md-table class="mytable">
         <md-table-toolbar>
           <h1 class="md-title" md-fixed-header>
-            <md-button @click="swap" :disabled="!permView">Data</md-button>
+            <md-button @click="swap('dataView')" :md-ripple="false" :disabled="tabs.dataView">Data</md-button>
           </h1>
           <h1 class="md-title" md-fixed-header>
-            <md-button @click="swap" :disabled="permView">Permissives</md-button>
+            <md-button
+              @click="swap('permView')"
+              :md-ripple="false"
+              :disabled="tabs.permView"
+            >Permissives</md-button>
+          </h1>
+          <h1 class="md-title" md-fixed-header>
+            <md-button @click="swap('flagView')" :md-ripple="false" :disabled="tabs.flagView">Flags</md-button>
           </h1>
         </md-table-toolbar>
 
-        <template v-if="!permView" v-for="(value, key) in yData">
+        <template v-if="tabs.dataView" v-for="(value, key) in yData">
           <md-table-row>
             <md-table-cell>{{ key }}</md-table-cell>
             <md-table-cell>{{ value.data }}</md-table-cell>
           </md-table-row>
         </template>
-        <template v-if="permView" v-for="(value, key) in getPerms">
+        <template v-if="tabs.permView" v-for="(value, key) in getPerms">
+          <md-table-row>
+            <md-table-cell>{{ key }}</md-table-cell>
+            <md-table-cell>{{ value }}</md-table-cell>
+          </md-table-row>
+        </template>
+        <template v-if="tabs.flagView" v-for="(value, key) in getFlags">
           <md-table-row>
             <md-table-cell>{{ key }}</md-table-cell>
             <md-table-cell>{{ value }}</md-table-cell>
@@ -48,11 +58,15 @@ export default {
   data() {
     return {
       yData: Data.oper_stat,
-      permView: false
+      tabs: {
+        dataView: true,
+        permView: false,
+        flagView: false
+      }
     };
   },
   created() {
-    console.log(this.yData);
+    // console.log(this.yData);
   },
   mounted() {
     this.$root.$on("handleData", data => {
@@ -86,13 +100,25 @@ export default {
         this.yData["permissives2"].bytes["permis2_byte_hi"].data,
         this.yData["permissives2"].bytes["permis2_byte_lo"].data
       );
-      console.log("THESE ARE THE PERMS", p);
+      // console.log("THESE ARE THE PERMS", p);
       return p;
+    },
+
+    getFlags: function() {
+      let obj = {};
+      for (let byte in this.yData["flags"].bytes) {
+        Object.assign(obj, this.yData["flags"].bytes[byte].data);
+      }
+      // console.log("THESE ARE THE FLAGS", obj);
+      return obj;
     }
   },
   methods: {
-    swap: function() {
-      this.permView = !this.permView;
+    swap: function(view) {
+      for (let x in this.tabs) {
+        this.tabs[x] = false;
+      }
+      this.tabs[view] = true;
     },
     log: function() {
       console.log("Saving current data");
