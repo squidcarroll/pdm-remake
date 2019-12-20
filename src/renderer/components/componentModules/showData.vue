@@ -2,7 +2,9 @@
 <template>
   <div class="md-layout md-gutter">
     <div class="md-layout-item">
-      <div id="rpm"></div>
+      <div id="rpm" class="g"></div>
+      <h3>RPM_REF: {{ yData.rpm_ref_display.data }}</h3>
+      <h3>RPM_COM: {{ yData.rpm_com.data }}</h3>
     </div>
     <div class="md-layout-item">
       <md-table class="mytable">
@@ -120,10 +122,6 @@ export default {
       }
       this.tabs[view] = true;
     },
-    log: function() {
-      console.log("Saving current data");
-      Log.saveSnapshot(this.yData);
-    },
     setData: function(recData) {
       console.log("REC", recData);
       console.log("ydata length", this.yData);
@@ -139,33 +137,18 @@ export default {
           //read and store bits
           let bits = [];
           for (let b in this.yData[x].bytes) {
-            // console.log("b is:", b);
-            // console.log("byte is", this.yData[x].bytes[b].byte);
-            // console.log("bit in data", recData[this.yData[x].bytes[b].byte]);
-            // if (recData[this.yData[x].bytes[b].byte] > 0) {
-            // console.log("Byte to read:", this.yData[x].bytes[b].byte);
-            // console.log(
-            //   "INT:",
-            //   recData.readInt8(this.yData[x].bytes[b].byte)
-            // );
-            // console.log(this.yData[x].bytes[b])
-
             let arr = byte.read(recData[this.yData[x].bytes[b].byte]);
-
-            // console.log("ARR", arr);
             let n = 0;
             for (let c in this.yData[x].bytes[b].data) {
               this.yData[x].bytes[b].data[c] = arr[n];
               n++;
-              // }
-              // } else {
-              // console.log("No data to read... skipping");
             }
           }
         } else {
           console.log("failed to write data to", x);
         }
       }
+      this.$logger.log("info", this.yData);
     },
     dataHandler: function(data) {
       //must change later to direct data to correct locations
@@ -178,10 +161,6 @@ export default {
           console.log("received", cmd);
           this.setData(justDataBuf);
         }
-        // console.log(justDataBuf);
-        // console.log("setting data");
-
-        // console.log(this.yData);
       }
     }
   }
@@ -192,5 +171,8 @@ export default {
 .mytable {
   height: 90vh;
   /* width: 30vw; */
+}
+.g {
+  width: 60%;
 }
 </style>

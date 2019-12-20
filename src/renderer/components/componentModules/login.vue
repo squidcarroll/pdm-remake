@@ -36,6 +36,7 @@ export default {
   },
   created() {
     this.getPorts();
+    this.$logger.log("info", "getting ports");
     // const pasBuf = Buffer.alloc(7, "sapatsn", "ascii");
     // const checkSum = Buffer.alloc(1, 0x06);
     this.pass = Buffer.concat(
@@ -66,16 +67,23 @@ export default {
           baudRate: 9600,
           autoOpen: false
         });
+        this.$logger.log("info", `Connecting to port ${this.selectedPort}`);
 
         try {
-          console.log(await this.openPort(this.selectedPort));
+          await this.openPort(this.selectedPort);
+          this.$logger.log("info", "Port open");
+          this.$logger.log("info", "Attempting login");
           await this.loginAsync();
+          this.$logger.log(
+            "info",
+            "Successfully logged in, getting system info"
+          );
           this.startLoop();
         } catch (e) {
-          console.log(e);
+          this.$logger.log("info", `${e}`);
         }
       } else {
-        if (this.port.isOpen) console.log("Port is already open");
+        if (this.port.isOpen) this.$logger.log("warn", "Port already open");
       }
     },
     openPort: function(p) {
@@ -90,26 +98,28 @@ export default {
       });
     },
     loginAsync: async function() {
-      console.log("Starting Login");
       return new Promise(async (res, rej) => {
         try {
           this.lastSent = "I";
-          console.log("ayo");
           if (await this.getAckAsync("I")) {
             console.log("Acknowledged, sending password");
             this.sendBuf(this.pass);
             let retVal = await this.captureExpected(9);
             if (retVal[8].toString() == "73") {
-              res(console.log("login successful"));
+              this.$logger.log("info", "Login Successful");
+              res("login successful");
             } else {
-              rej("Characters do not match");
+              this.$logger.log("warn", "Did not receive expected login bytes");
+              rej("login return value not correct");
             }
           } else {
+            this.$logger.log("error", "Did not receive login response");
             rej("Login failed2");
           }
         } catch (e) {
           console.log(e);
-          rej("failed to login3");
+          this.$logger.log("error", `${e}`);
+          rej("failed");
         }
       });
     },
@@ -128,12 +138,10 @@ export default {
     },
     startLoop: async function() {
       let data;
-
+      this.$logger.log("info", "Starting y message loop");
       setInterval(() => {
         if (this.port.isOpen) this.inputCmd("y");
-        // console.log("yo");
       }, 250);
-      // this.port.on("open", async () => {
       while (this.port.isOpen) {
         data = await this.receiveIncomingData();
         if (data.length > 0) {
@@ -141,7 +149,6 @@ export default {
         } else console.log("waiting for data");
         this.port.removeAllListeners("data");
       }
-      // });
     },
     sendBuf: async function(buf) {
       return new Promise((res, rej) => {
@@ -149,7 +156,6 @@ export default {
           if (err) {
             rej(err.message);
           } else {
-            console.log("Sent buf");
             res(true);
           }
         });
@@ -161,8 +167,6 @@ export default {
           if (data) {
             this.removeListener("data", cb);
             resolve(data);
-          } else {
-            console.log("booo");
           }
         }
         this.port.on("data", cb);
@@ -180,14 +184,14 @@ export default {
           }
         });
       } else {
-        console.log("Not a valid command");
+        this.$logger.log("warn", "Not a valid command");
         return false;
       }
     },
     getAckAsync: async function(cmd) {
       let echo;
       return new Promise(async (res, rej) => {
-        console.log("sending cmd:", cmd);
+        this.$logger.log("info", `sending cmd: ${cmd}`);
 
         //send command once to start acknowledgement
         if (this.sendCmd(cmd)) {
@@ -202,6 +206,8 @@ export default {
                 console.log("matched twice");
                 res(true);
               } else {
+                this.$logger.log(`Sent command: ${cmd} did not return a match`);
+                this.$logger.log(`Received command: ${echo[0]}`);
                 rej("did not match twice");
               }
             }
@@ -228,10 +234,11 @@ export default {
         let data = Buffer.from([]);
         let holder;
 
-        console.log("last sent cmd", this.lastSent);
-        console.log(
-          "Expected Bytes",
-          Login.validCmds[this.lastSent].expBytes + 2
+        this.$logger.log("info", `last cmd ${this.lastSent}`);
+
+        this.$logger.log(
+          "info",
+          `Expected ${Login.validCmds[this.lastSent].expBytes + 2} Bytes`
         );
         while (data.length < Login.validCmds[this.lastSent].expBytes + 2) {
           // while (1) {

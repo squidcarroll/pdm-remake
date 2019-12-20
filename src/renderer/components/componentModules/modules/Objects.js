@@ -30,6 +30,12 @@ let oper_stat = {
   eec1_trq_demand: { dataLen: 1, byte: 32, data: 0 }, //byte 32
   eec1_trq_mode: { dataLen: 1, byte: 33, data: 0 }, //byte 33
   rpm_com: { dataLen: 1, byte: 35, data: 0 }, //byte 35
+  rpm_ref_display: { dataLen: 2, byte: 42, data: 0 }, //byte 42 and 43
+  eec2_aps_display: { dataLen: 2, byte: 44, data: 0 }, //byte 44 and 45
+  trqacthires_displ: { dataLen: 2, byte: 46, data: 0 }, //byte 46 and 47
+  massflow_cng_display: { dataLen: 2, byte: 54, data: 0 }, //byte 54 and 55
+  cngmass_used_dspl: { dataLen: 2, byte: 56, data: 0 }, //byte 56 and 57
+  injpw_total_display: { dataLen: 2, byte: 58, data: 0 }, // byte 58 and 59
   permissives: {
     dataLen: 0,
     bytes: {
@@ -232,13 +238,7 @@ let oper_stat = {
         }
       }
     }
-  },
-  rpm_ref_display: { dataLen: 2, byte: 42, data: 0 }, //byte 42 and 43
-  eec2_aps_display: { dataLen: 2, byte: 44, data: 0 }, //byte 44 and 45
-  trqacthires_displ: { dataLen: 2, byte: 46, data: 0 }, //byte 46 and 47
-  massflow_cng_display: { dataLen: 2, byte: 54, data: 0 }, //byte 54 and 55
-  cngmass_used_dspl: { dataLen: 2, byte: 56, data: 0 }, //byte 56 and 57
-  injpw_total_display: { dataLen: 2, byte: 58, data: 0 } // byte 58 and 59
+  }
 }
 
 function changeData() {

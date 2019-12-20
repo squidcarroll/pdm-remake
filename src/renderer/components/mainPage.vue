@@ -4,6 +4,7 @@
     <div class="md-layout md-gutter">
       <div class="md-layout-item md-size-20">
         <Login></Login>
+        <md-button @click="logIt">Log It</md-button>
       </div>
       <div class="md-layout-item">
         <ShowData></ShowData>
@@ -25,7 +26,11 @@ export default {
   data() {
     return {};
   },
-  methods: {}
+  methods: {
+    logIt: function() {
+      this.$logger.log("info", "Hello created log files!");
+    }
+  }
 };
 </script>
 

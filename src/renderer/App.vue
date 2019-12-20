@@ -5,14 +5,17 @@
 </template>
 
 <script>
-import MainPage from '@/components/mainPage'
+import MainPage from "@/components/mainPage";
 
 export default {
-  name: 'test',
+  name: "test",
   components: {
     MainPage
+  },
+  data() {
+    return {};
   }
-}
+};
 </script>
 
 <style>
