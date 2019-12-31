@@ -4,7 +4,6 @@
     <div class="md-layout md-gutter">
       <div class="md-layout-item md-size-20">
         <Login></Login>
-        <md-button @click="logIt">Log It</md-button>
       </div>
       <div class="md-layout-item">
         <ShowData></ShowData>

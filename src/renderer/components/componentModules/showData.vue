@@ -123,8 +123,8 @@ export default {
       this.tabs[view] = true;
     },
     setData: function(recData) {
-      console.log("REC", recData);
-      console.log("ydata length", this.yData);
+      // console.log("REC", recData);
+      // console.log("ydata length", this.yData);
       for (let x in this.yData) {
         // console.log(myObj[x].dataLen);
         if (this.yData[x].dataLen == 1) {
@@ -148,7 +148,7 @@ export default {
           console.log("failed to write data to", x);
         }
       }
-      this.$logger.log("info", this.yData);
+      // this.$logger.log("info", this.yData);
     },
     dataHandler: function(data) {
       //must change later to direct data to correct locations
