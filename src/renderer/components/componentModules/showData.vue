@@ -1,7 +1,7 @@
 /* eslint-disable */
 <template>
   <div class="md-layout md-gutter">
-    <div class="md-layout-item">
+    <div class="md-layout-item md-size-20">
       <div id="rpm" class="g"></div>
       <h3>RPM_REF: {{ yData.rpm_ref_display.data }}</h3>
       <h3>RPM_COM: {{ yData.rpm_com.data }}</h3>
@@ -73,6 +73,7 @@ const fs = require('fs')
 
 export default {
   name: 'showData',
+  props: [],
   components: {
     Chart
   },
@@ -94,6 +95,11 @@ export default {
   },
   mounted() {
     // console.log(this.yData);
+    // console.log(this.$store.commit('change', true))
+    console.log(this.$store)
+    console.log(this.$store.getters.logginState)
+    this.$store.dispatch('changeLogginState', true)
+    console.log(this.$store.getters.logginState)
 
     this.$root.$on('handleData', data => {
       console.log(data)

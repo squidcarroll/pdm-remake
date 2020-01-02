@@ -9,17 +9,6 @@
 <script>
 import Dygraph from 'dygraphs'
 
-Date.prototype.yyyymmdd = function() {
-  var mm = this.getMonth() + 1 // getMonth() is zero-based
-  var dd = this.getDate()
-
-  return [
-    this.getFullYear(),
-    (mm > 9 ? '' : '0') + mm,
-    (dd > 9 ? '' : '0') + dd
-  ].join('')
-}
-
 export default {
   name: 'Chart',
   components: {},
@@ -32,7 +21,6 @@ export default {
   created() {
     setInterval(() => {
       let t = new Date()
-      console.log(t.yyyymmdd())
       this.series.push([t, this.randData])
     }, 1000)
   },
