@@ -35515,3 +35515,1280 @@
 {"level":"info","message":"last cmd y"}
 {"level":"info","message":"Expected 66 Bytes"}
 {"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"Opening port"}
+{"level":"info","message":"Connecting to port COM4"}
+{"level":"info","message":"sending cmd: I"}
+{"level":"info","message":"Login Successful"}
+{"level":"info","message":"Starting y message loop"}
+{"level":"info","message":"last cmd I"}
+{"level":"info","message":"Expected 3 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"warn","message":"Port is closed"}
+{"level":"info","message":"Opening port"}
+{"level":"info","message":"Connecting to port COM4"}
+{"level":"info","message":"sending cmd: I"}
+{"level":"info","message":"Login Successful"}
+{"level":"info","message":"Starting y message loop"}
+{"level":"info","message":"last cmd I"}
+{"level":"info","message":"Expected 3 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"warn","message":"Port is closed"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"getting ports"}
+{"level":"info","message":"Opening port"}
+{"level":"info","message":"Connecting to port COM4"}
+{"level":"info","message":"sending cmd: I"}
+{"level":"info","message":"Login Successful"}
+{"level":"info","message":"Starting y message loop"}
+{"level":"info","message":"last cmd I"}
+{"level":"info","message":"Expected 3 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"info","message":"last cmd y"}
+{"level":"info","message":"Expected 66 Bytes"}
+{"level":"info","message":"sending cmd: y"}
+{"level":"warn","message":"Port is closed"}
+{"level":"info","message":"getting ports"}
