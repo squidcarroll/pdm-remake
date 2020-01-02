@@ -51,7 +51,6 @@
     }
   },
   "dependencies": {
-    "apexcharts": "^3.11.3",
     "bitwise": "^2.0.4",
     "browserify-fs": "^1.0.0",
     "dygraphs": "^2.1.0",
