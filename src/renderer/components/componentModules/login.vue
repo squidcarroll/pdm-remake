@@ -1,21 +1,27 @@
 <template>
   <div id="login">
-    <h4>Select Port</h4>
     <md-button class="md-raised" @click="getPorts">refresh</md-button>
     <md-button
       class="md-raised md-primary"
-      v-if="ports != 'no ports' && selectedPort"
+      v-if="ports != 'no ports' && selectedPort && !loggedIn"
       @click="login"
     >Connect</md-button>
     <md-button v-else class="md-raised md-primary" :disabled="true">Connect</md-button>
     <md-field>
       <md-select v-if="ports != 'no ports'" name="ports" v-model="selectedPort">
-        <md-option v-for="port in ports" v-bind:key="port" v-bind:value="port">{{ port }}</md-option>
+        <md-option
+          v-for="selectedPort in ports"
+          v-bind:key="selectedPort"
+          v-bind:value="selectedPort"
+        >{{ selectedPort }}</md-option>
       </md-select>
       <md-select v-else>
         <span>No Ports Available</span>
       </md-select>
     </md-field>
+    <p v-if="loggedIn">Successfully logged in</p>
+    <p v-if="!loggedIn && !selectedPort">Select port to connect to</p>
+    <p v-if="!loggedIn && selectedPort">Selected port {{selectedPort}}</p>
   </div>
 </template>
 
@@ -28,10 +34,11 @@ export default {
   data() {
     return {
       ports: [],
-      selectedPort: null,
+      selectedPort: "",
       port: null,
       lastSent: "",
-      pass: Buffer.from([])
+      pass: Buffer.from([]),
+      loggedIn: false
     };
   },
   created() {
@@ -46,10 +53,10 @@ export default {
   },
   methods: {
     getPorts: function() {
+      console.log(this.port, this.loggedIn);
       serialport.list().then(ps => {
         let pList = [];
         for (let i = 0; i < ps.length; i++) {
-          console.log(ps[i].path);
           pList.push(ps[i].path);
         }
         if (pList.length > 0) {
@@ -61,41 +68,47 @@ export default {
         // return ps.toString();
       });
     },
-    login: async function() {
-      if (!this.port) {
-        this.port = new serialport(this.selectedPort, {
-          baudRate: 9600,
-          autoOpen: false
-        });
-        this.$logger.log("info", `Connecting to port ${this.selectedPort}`);
-
-        try {
-          await this.openPort(this.selectedPort);
-          this.$logger.log("info", "Port open");
-          this.$logger.log("info", "Attempting login");
-          await this.loginAsync();
-          this.$logger.log(
-            "info",
-            "Successfully logged in, getting system info"
-          );
-          this.startLoop();
-        } catch (e) {
-          this.$logger.log("info", `${e}`);
-        }
-      } else {
-        if (this.port.isOpen) this.$logger.log("warn", "Port already open");
-      }
-    },
-    openPort: function(p) {
+    createOpenPort: async function() {
       return new Promise((res, rej) => {
-        this.port.open(err => {
+        console.log("enterd promise");
+        if (!this.port) {
+          console.log("enterd if");
+          this.port = new serialport(this.selectedPort, {
+            baudRate: 9600,
+            autoOpen: false
+          });
+          this.$logger.log("info", `Connecting to port ${this.selectedPort}`);
+        }
+        this.port.open(function(err) {
           if (err) {
-            rej(err.message);
+            console.log(this.selectedPort);
+            console.log(this.port);
           } else {
-            res(`Connection to port ${p.path} established`);
+            res();
           }
         });
       });
+    },
+    login: async function() {
+      try {
+        this.$logger.log("info", "Opening port");
+        await this.createOpenPort();
+        // await this.port.flush();
+        await this.loginAsync();
+
+        if (this.loggedIn) {
+          this.startLoop();
+        } else {
+          console.log("Failed to log in");
+        }
+      } catch (e) {
+        if (e == "Did not match" && !this.loggedIn) {
+          this.$logger.log("info", "Attemping login again");
+          // this.login();
+        }
+        this.$logger.log("info", `${e}`);
+        console.log("lo");
+      }
     },
     loginAsync: async function() {
       return new Promise(async (res, rej) => {
@@ -107,19 +120,21 @@ export default {
             let retVal = await this.captureExpected(9);
             if (retVal[8].toString() == "73") {
               this.$logger.log("info", "Login Successful");
+              this.loggedIn = true;
               res("login successful");
             } else {
               this.$logger.log("warn", "Did not receive expected login bytes");
-              rej("login return value not correct");
+              rej(false);
             }
           } else {
             this.$logger.log("error", "Did not receive login response");
-            rej("Login failed2");
+            rej(false);
           }
         } catch (e) {
+          console.log("LOGGED INNN????", this.loggedIn);
           console.log(e);
           this.$logger.log("error", `${e}`);
-          rej("failed");
+          rej(false);
         }
       });
     },
@@ -136,18 +151,37 @@ export default {
         return data;
       }
     },
+    handleDisconnect: function() {
+      console.log("port closed");
+      this.port = null;
+      console.log(this.port);
+      this.loggedIn = false;
+      console.log(this.loggedIn);
+    },
     startLoop: async function() {
       let data;
       this.$logger.log("info", "Starting y message loop");
-      setInterval(() => {
-        if (this.port.isOpen) this.inputCmd("y");
-      }, 250);
-      while (this.port.isOpen) {
-        data = await this.receiveIncomingData();
-        if (data.length > 0) {
-          this.$root.$emit("handleData", data);
-        } else console.log("waiting for data");
-        this.port.removeAllListeners("data");
+      this.port.on("close", this.handleDisconnect);
+      // if (this.port) {
+      //   setInterval(() => {
+      //     if (this.port) if (this.port.isOpen) this.inputCmd("y");
+      //   }, 250);
+      // }
+
+      while (this.port && this.loggedIn) {
+        console.log(this.port);
+        setTimeout(() => {
+          this.inputCmd("y");
+        }, 250);
+        if (this.port.isOpen && this.loggedIn) {
+          data = await this.receiveIncomingData();
+          if (data.length > 0) {
+            this.$root.$emit("handleData", data);
+          } else console.log("waiting for data");
+          this.port.removeAllListeners("data");
+        } else {
+          console.log("port has been closed");
+        }
       }
     },
     sendBuf: async function(buf) {
@@ -169,14 +203,19 @@ export default {
             resolve(data);
           }
         }
-        this.port.on("data", cb);
+        if (this.port) {
+          this.port.on("data", cb);
+        } else {
+          console.log("Cannot write, port is closed");
+        }
       });
     },
     sendCmd: async function(cmd) {
-      if (Login.validCmds.hasOwnProperty(cmd)) {
+      if (Login.validCmds.hasOwnProperty(cmd) && this.port) {
         this.port.write(Buffer.from(cmd), err => {
           if (err) {
             console.log(err.message);
+            console.log("wowowowwowowowowow");
             return false;
           } else {
             console.log("Sent:", cmd);
@@ -184,7 +223,11 @@ export default {
           }
         });
       } else {
-        this.$logger.log("warn", "Not a valid command");
+        if (!this.port) {
+          this.$logger.log("warn", "Port is closed");
+        } else {
+          this.$logger.log("warn", "Not a valid command");
+        }
         return false;
       }
     },
@@ -206,15 +249,15 @@ export default {
                 console.log("matched twice");
                 res(true);
               } else {
-                this.$logger.log(`Sent command: ${cmd} did not return a match`);
+                // this.$logger.log(`Sent command: ${cmd} did not return a match`);
                 this.$logger.log(`Received command: ${echo[0]}`);
-                rej("did not match twice");
+                rej(false);
               }
             }
           } else {
-            rej("Did not match");
+            rej(false);
           }
-        } else rej("Could not send:", cmd);
+        } else rej(false);
       });
     },
     inputCmd: async function(cmd) {
